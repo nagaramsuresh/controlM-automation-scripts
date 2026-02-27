@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Description: Script to find the delay in non-cyclic job's running schedule and trigger mail alert. It takes application name as input argument
-
+# This script require a file, which is generated from the script export_controlM_viewpoint.sh
 # Usage:        ./delayedJobsAlert.sh <appName> <appName> <appName>
 # Arguments: Mandatoy argument is app name. Atleast one app name should be passed from the below table
 # Must run as "ctmagent"  User name can be modified
@@ -363,4 +363,5 @@ else
 
 
 fi
+
 done
