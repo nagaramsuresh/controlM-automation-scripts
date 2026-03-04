@@ -8,6 +8,8 @@
 
 A practical automation toolkit built for **BMC Control-M administrators, DevOps engineers, and workload automation teams**.
 
+This repository provides Python and Shell scripts for BMC Control-M automation including job monitoring, Exporting View-points, Enabling external alerts for Control-M, delay detection, alert notifications for delay & Abends, Report generation, and planning domain extraction, Back-up of applications from planning domain using the Control-M Automation API.
+
 This repository provides **Shell and Python scripts** that extend Control-M capabilities through automation, monitoring, alerting, and data extraction using the **Control-M Automation API**.
 
 ---
