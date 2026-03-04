@@ -87,9 +87,9 @@ This toolkit helps automate common Control-M operational tasks such as:
 `devops`  
 `python`  
 `shell-scripting` 
-'Helix Control-M' 
-'COntrol-M Delayed Job alerts'
-'COntrol-M External alerts'
+`Helix Control-M`
+`Control-M Delayed Job alerts`
+`Control-M External alerts`
 
 ---
 
