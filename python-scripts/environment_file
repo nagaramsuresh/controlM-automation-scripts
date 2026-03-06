@@ -1,0 +1,30 @@
+# This file need to renamed as .env
+
+
+# Usage of this file requires dotenv package available
+#Environment file which stores the user credentials, API URLs & API tokens
+# The variable 'env' used in other control-M scripts is used to decide, to which environment the request should be made. 
+# In this case env can take values "PROD", "DEV" and "SAND"
+# You can include as many environments as available
+# This file should be inported into main script with below lines
+#		from dotenv import load_dotenv
+#		load_dotenv()
+# The variables can be built using below code
+#		url = f"CTM_{env}_API_BASE"
+#	    ctm_url = os.getenv(url)
+#	    key = f"CTM_{env}_API_KEY"
+#	    ctm_key = os.getenv(key)
+#
+#
+#
+
+USER_EMAIL="example@xyz.com"
+
+CTM_PROD_API_BASE="https://xyz-aapi.xyz.controlm.com/automation-api"      # Prod
+CTM_PROD_API_KEY="" #This token is generated with name: xyz
+
+CTM_DEV_API_BASE="https://xyz-aapi.xyz.controlm.com/automation-api"      # non-prod
+CTM_DEV_API_KEY="" #This token is generated with name: xyz
+
+CTM_SAND_API_BASE="https://xyz-aapi.xyz.controlm.com/automation-api"      # Sanbox
+CTM_SAND_API_KEY="" #This token is generated with name: xyz
