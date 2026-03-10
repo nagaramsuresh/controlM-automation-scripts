@@ -7,7 +7,7 @@ This python script is designed to monitor Control-M jobs for a specified
     compares current start times with scheduled start times, which was exported when new schedule is loaded,
     and gathers additional information about wait conditions and resource usage
     to provide comprehensive alert notifications.
-    
+Sub modules used in this script are present in the utils/ctm_submodules.py file, which contains functions to interact with Control-M API, process job details, and handle on-demand jobs. The send_mail function from utils/send_mail.py is used to send email alerts.
  Usage: 
  python delayedJobAlerts.py <application> <application>
 This script requires at least one application name as a command-line argument. 
